@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+#Langage{
+    margin: 0;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top:25px;
+    color: white;
+    border-right: solid 3px;
+}
+#Langage:hover{
+    margin: 0;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top:25px;
+    color: rgb(26, 26, 105);
+    background-color: white;
+    border-right: solid 3px white;
+}
+.whiteFont{
+    color: inherit;
+    text-decoration:none;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+#topTitle{
+    display: flex;
+}
+#Title{
+    margin: auto;
+
+}
+.TitleLogo{
+    width: 250px;
+    height: 100px;
+}
+#ToJa{
+    height: 100px;
+    padding-top: 12.5px;
+    font-size:18px;
+}
+#ToEn{
+    height: 100px;
+}
+#Langage:active{
+    margin: 0;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top:25px;
+    color: rgb(26, 26, 105);
+    background-color: white;
+    border-right: solid 3px white;
+}
+.material-symbols-outlined{
+    padding-top: 13px;
+}
+#topTitle{
+    height: 125px;
+    background-color: rgb(26, 26, 105);
+}
+.menu-tub{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.menu-item{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /*横の線のコード*/
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: rgb(135, 135, 135);
+}
+.menu-item:hover{
+    text-decoration: underline;
+
+    color: rgb(149, 149, 149);
+}
