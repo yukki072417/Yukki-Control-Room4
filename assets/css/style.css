@@ -86,3 +86,12 @@ body{
 
     color: rgb(149, 149, 149);
 }
+.top ,.bottom{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.ashita-title{
+    padding: 20px;
+    font-size: 20px;
+}
