@@ -1,8 +1,11 @@
+/*見にくくてごめんね　はぁーと♡*/
 body{
     margin: 0;
     padding: 0;
     font-family: 'BIZ UDPGothic', sans-serif;
 }
+
+/*ここからheaderのコード*/
 #Langage{
     margin: 0;
     display: flex;
@@ -72,6 +75,9 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 
+    color: black;
+    text-decoration: none;
+
     /*横の線のコード*/
     padding-top: 2.5px;
     padding-bottom: 2.5px;
@@ -86,10 +92,21 @@ body{
 
     color: rgb(149, 149, 149);
 }
-.top ,.bottom{
+/*ここまでheaderのコード*/
+
+.top ,.bottom,.middle{
     text-align: center;
     margin-top: 70px;
     font-size: 20px;
+}
+.middle{
+    text-align: center;
+
+    border-radius: 20px;
+    border-style: dotted;
+    margin: auto;
+
+    width:800px;
 }
 .ashita-title{
     padding: 20px;
