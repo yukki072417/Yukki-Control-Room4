@@ -99,7 +99,7 @@ body{
     margin-top: 70px;
     font-size: 20px;
 }
-.middle{
+.middle,#WhatYCR4{
     text-align: center;
 
     border-radius: 20px;
@@ -111,4 +111,38 @@ body{
 .ashita-title{
     padding: 20px;
     font-size: 20px;
+}
+.yukki{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+
+    border-radius: 50px;
+    border-style: dotted;
+
+    margin-bottom: 50px;
+
+}
+#yukkiList{
+
+    list-style: none;
+
+}
+#yukkiImg{
+    border-radius: 50%;
+}
+.yukkiLists{
+    margin: 15px;
+}
+.border-solid{
+
+    margin: auto;
+    text-align: center;
+    width: 700px;
+
+    border-radius: 50px;
+    border-style: solid;
+
+    margin-bottom: 50px;
+
 }
